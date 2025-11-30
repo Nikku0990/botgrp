@@ -1,0 +1,8 @@
+python-telegram-bot
+astrapy
+python-dotenv
+flask
+flask-socketio
+psutil
+requests
+aiohttp

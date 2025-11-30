@@ -1,0 +1,378 @@
+# 🚀 ULTIMATE GROUP KING BOT - GITIGNORE
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Bot specific files
+data/
+backups/
+logs/
+test_bot.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config.py.local
+.env.local
+.env.development
+.env.production
+secrets.json
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Node.js (if using for web dashboard)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Web dashboard static files
+static/uploads/
+static/cache/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+ssl/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+debug.log
+
+# Test files
+test_*.db
+test_*.sqlite
+test_*.sqlite3
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Profiling
+*.prof
+*.stats
+profile.*
+
+# Security reports
+security-report.json
+audit-report.json
+
+# Performance reports
+benchmark.json
+performance.json
+
+# Local development
+local/
+dev/
+development/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Documentation build
+docs/build/
+docs/_build/
+
+# Jupyter notebooks
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Project specific
+# Add any project-specific files or directories here
+
+# API keys and tokens (should be in .env)
+api_keys.txt
+tokens.txt
+secrets.txt
+
+# Database dumps
+*.sql
+*.dump
+
+# Backup archives
+*.tar.gz
+*.zip
+*.rar
+
+# Cache directories
+.cache/
+cache/
+
+# Runtime files
+*.pid
+*.lock
+
+# Temporary scripts
+temp_*.py
+test_*.py
+
+# Local configuration
+config_local.py
+settings_local.py
+
+# Monitoring and metrics
+metrics/
+monitoring/
+
+# Local data files
+data_local/
+local_data/
+
+# Test outputs
+test_output/
+test_results/
+
+# Development logs
+dev_logs/
+debug_logs/
+
+# Migration files (if using Alembic)
+alembic/versions/*.pyc
+
+# Redis dump
+dump.rdb
+
+# Docker volumes (if using)
+docker_data/
+docker_volumes/
+
+# Kubernetes secrets
+secrets/
+*.yaml.enc
+*.yml.enc
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Local scripts
+scripts/local_*
+scripts/dev_*
+
+# Documentation drafts
+docs/drafts/
+docs/wip/
+
+# Experimental features
+experimental/
+beta/
+alpha/
+
+# User data
+user_data/
+uploads/
+
+# Temporary exports
+exports/
+temp_exports/
+
+# Local backups
+local_backups/
+
+# Development databases
+dev_*.db
+dev_*.sqlite
+
+# Test databases
+test_*.db
+test_*.sqlite
+
+# Performance testing
+perf_*.py
+benchmark_*.py
+
+# Local monitoring
+local_monitoring/
+dev_monitoring/
+
+# Custom modules (if any)
+custom_modules/
+local_modules/
